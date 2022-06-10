@@ -1,0 +1,26 @@
+.btn {
+
+}
+
+.signIn {
+    height: 40px;
+    width: 128px;
+    border-radius: 22px;
+    color: #ffffff;
+    background-color: #0055FF;
+    border: none;
+    font-size: 18px;
+    font-family: "Inter", serif;
+
+}
+
+.logIn {
+    height: 40px;
+    width: 128px;
+    font-size: 18px;
+    font-family: "Inter", serif;
+    border: none;
+    background-color: #fff;
+    font-weight: 400;
+
+}

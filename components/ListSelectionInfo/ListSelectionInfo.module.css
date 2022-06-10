@@ -1,0 +1,7 @@
+.list {
+    display: flex;
+    list-style-type: none;
+    margin-top: 214px;
+    position: relative;
+    z-index: 1;
+}

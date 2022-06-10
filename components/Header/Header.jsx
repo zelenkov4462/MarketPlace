@@ -12,7 +12,7 @@ return (
                     <Logo/>
                     <InputSearch />
                 </div>
-                <div className={classes.header_logo}>
+                <div className={classes.header_reg}>
                     <Register/>
                 </div>
             </div>

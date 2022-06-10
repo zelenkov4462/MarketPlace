@@ -1,14 +1,24 @@
+
+
 .content {
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 0;
     max-width: 1360px;
     max-height: 530px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     display: flex;
+    background: url("../../public/Background/background.png") 100% no-repeat,
+    url("../../public/NFTIcons/Rectangle 26.png") no-repeat center center;
+    background-size: cover, cover;
+    /*background-repeat: no-repeat;*/
 }
 
 .contentLeft {
     margin: 160px 138px 229px 77px;
     max-width: 664px;
     font-size: 30px;
+    color: #ffffff;
 }
 
 .contentRight {
@@ -17,6 +27,8 @@
     max-height: 480px;
     margin: auto 0;
     border-radius: 20px;
+    background-color: white;
+
 }
 
 .contentRightIcon {

@@ -4,8 +4,10 @@ body {
     margin: 10px auto ;
     max-width: 1360px;
     height: 5000px;
+    background: #E5E5E5;
 }
 
 * {
     box-sizing: border-box;
 }
+

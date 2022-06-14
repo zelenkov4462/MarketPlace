@@ -1,9 +1,10 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /*justify-content: center;*/
-    position: fixed;
-    top: 10px;
+    /*position: fixed;*/
+    /*top: 10px;*/
     z-index: 3;
 }
 
@@ -14,8 +15,8 @@
 }
 
 .header_reg {
-    position: relative;
-    left: 500px;
+    /*position: relative;*/
+    /*left: 500px;*/
     display: flex;
     justify-content: center;
     align-items: center;

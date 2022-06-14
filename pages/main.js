@@ -4,8 +4,10 @@ import {TopSectionPage} from "../components/TopSectionPage/TopSectionPage";
 import {ListSelectionInfo} from "../components/ListSelectionInfo/ListSelectionInfo";
 import dropOne from '../public/Icons/Group1.png';
 import dropTwo from '../public/Icons/Group 2.png'
-import styles from '../styles/main.module.css'
+import styles from '../styles/main.module.scss'
 import Image from "next/image";
+import SimpleSlider from "../components/Slider/Slider";
+import {CreateOwnCollection} from "../components/CreateOwnCollection/CreateOwnCollection";
 
 
 export default function Main() {
@@ -35,6 +37,16 @@ export default function Main() {
                 <div className={styles.dropsFooter}>
                     The second collection. ZOMBIES are the first step of the upcoming WAVES PUNKS Multiverse</div>
                 </div>
+            <div>
+                <div><SimpleSlider/></div>
+                <div><SimpleSlider/></div>
+            </div>
+            <CreateOwnCollection/>
+            <div className={styles.background}>
+                <h1>
+                    WHAT ABOUT IRL NFT?
+                </h1>
+            </div>
         </MainLayout>
     )
 }
